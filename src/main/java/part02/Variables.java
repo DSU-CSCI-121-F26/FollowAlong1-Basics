@@ -16,4 +16,8 @@ package part02;
 
 public class Variables {
 
+    double fuel = 87.5;
+    char grade = 'C';
+    int percentage = 87;
+
 }

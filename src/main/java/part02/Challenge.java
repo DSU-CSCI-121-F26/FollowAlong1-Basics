@@ -9,5 +9,8 @@ package part02;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
+
+    }
 
 }

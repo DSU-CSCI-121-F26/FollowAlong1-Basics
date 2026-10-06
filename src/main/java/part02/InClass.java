@@ -11,6 +11,7 @@ public class InClass {
 
         // STEP 1 — we make the rover's variables together, here, and print them.
 
+        System.out.println(args);
 
 
         // STEP 2 — fix the bugs. Each line below has ONE mistake.
