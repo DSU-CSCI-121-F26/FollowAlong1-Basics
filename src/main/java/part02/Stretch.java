@@ -9,5 +9,11 @@ package part02;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    int x = 123;
+    long val = 369760067;
+    long val = 36976006;
+    byte val2 = 100;
+    double val4 = 3.14;
+    boolean b1 = true;
 
 }

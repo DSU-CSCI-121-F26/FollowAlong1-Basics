@@ -11,6 +11,23 @@ package part02;
 public class Challenge {
     public static void main(String[] args) {
 
+        String name = "Shadow Knight";
+        int level = 12;
+        long gold = 50000000;
+        double health = 87.5;
+        double speed = 4.25;
+        boolean flyStatus = false;
+        char rank = 'S';
+
+        System.out.println("===== Character Card ======");
+        System.out.println("Name: " + name);
+        System.out.println("Level: " + level);
+        System.out.println("Gold: " + gold);
+        System.out.println("Health: " + health);
+        System.out.println("Speed: " + speed);
+        System.out.println("Flies: " + flyStatus);
+        System.out.println("Rank: " + rank);
+
     }
 
 }
