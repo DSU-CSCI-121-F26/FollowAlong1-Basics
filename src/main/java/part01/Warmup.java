@@ -12,5 +12,10 @@ package part01;
 // You will need to type the main method yourself. That is the point.
 
 public class Warmup {
+    public static void main(String[] args) {
+        System.out.println("=== Part00 ===");
+        System.out.println("Hello from Destiny Nkop");
+        System.out.println("If you can read this, your setup works.");
+    }
 
 }

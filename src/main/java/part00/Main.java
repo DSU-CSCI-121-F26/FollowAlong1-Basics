@@ -8,10 +8,15 @@ package part00;
 // Your one job in this file: change YOUR NAME below to your actual name,
 // run it, and check the output matches the README.
 
+// Declares the public class 'Main', which contains the application logic
 public class Main {
+    // The main method is the execution entry point required by the Java runtime
     public static void main(String[] args) {
+        // Prints the section header to the console
         System.out.println("=== Part 00 ===");
-        System.out.println("Hello from YOUR NAME");
+        // Prints the greeting containing the updated student name
+        System.out.println("Hello from Destiny Nkop");
+        // Prints confirmation that the development setup is working correctly
         System.out.println("If you can read this, your setup works.");
     }
 }

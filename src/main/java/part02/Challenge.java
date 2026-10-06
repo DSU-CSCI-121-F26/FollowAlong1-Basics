@@ -8,6 +8,32 @@ package part02;
 //
 // There is no main method here yet. Typing it is part of the challenge.
 
-public class Challenge {
+/*
+ * Name: Destiny
+ * Character: Kai, the Master of Fire Dragoon
+ */
 
+public class Challenge {
+    public static void main(String[] args) {
+
+        String name;
+        name = "Kai";
+
+        int level = 25;
+        long gold = 7500000000L;
+        double health = 97.5;
+        float speed = 8.75f;
+        boolean flies = true;
+        char rank = 'S';
+
+        System.out.println("===== CHARACTER CARD =====");
+        System.out.println("Name:\t" + name);
+        System.out.println("Level:\t" + level);
+        System.out.println("Gold:\t" + gold);
+        System.out.println("Health:\t" + health);
+        System.out.println("Speed:\t" + speed);
+        System.out.println("Flies:\t" + flies);
+        System.out.println("Rank:\t" + rank);
+    }
 }
+

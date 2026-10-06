@@ -8,6 +8,18 @@ package part01;
 //
 // There is no main method here yet. Typing it is part of the challenge.
 
+/* Destiny Nkop
+        butteries and cat
+ */
+
 public class Challenge {
+    public static void main(String[] args) {
+        System.out.println("˚.⋆꒰১໒\\꒱⋆.˚");
+        System.out.print("\t\t\t˚.⋆꒰১໒\\꒱⋆.˚\"\n");
+        System.out.println("                            ╱|、\n" +
+                "                          (˚ˎ 。7  \n" +
+                "                           |、˜〵          \n" +
+                "                          じしˍ,)ノ");
+    }
 
 }
