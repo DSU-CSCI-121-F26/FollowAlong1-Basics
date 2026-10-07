@@ -12,8 +12,9 @@ package part01;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+// this line defines the name of the class
 public class Main {
+    // main method that lets java know our program is executable
     public static void main(String[] args) {
 
         // prints out: I love pizza
