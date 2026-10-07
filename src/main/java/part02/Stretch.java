@@ -9,6 +9,15 @@ package part02;
 // There is no main method here yet. Typing it is part of the stretch.
 
 public class Stretch {
+    int Vector = 25;
 
+    boolean Three = true;
+    short m = 90;
+    char Quantity = '%';
+    long Funds = 4000000000L;
+    float I = 0.23f;
+    double fine = 2.75;
+    String PS5 = "Kratos";
+    System.out.println("Farewell " + PS5);
 
 }
