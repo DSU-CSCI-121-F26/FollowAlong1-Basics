@@ -23,6 +23,16 @@ public class Stretch {
         System.out.println("Computer Science");
         System.out.println("Class of 2029");
 
+        System.out.print("Jaidyn May\n");
+        System.out.print("Computer Science\n");
+        System.out.print("Class of 2029\n");
+
+        System.out.println("Day     Class           Time\n" +
+                "Mon     CSCI-121        2:00 PM\n" +
+                "Tue     CSCI-121        3:00 PM\n" +
+                "My teacher said \"type it yourself.\"\n" +
+                "My code lives in C:\\Users\\jordan\\csci121");
+
         /* MY GUESS:
           it will be ABC
                         DEG
