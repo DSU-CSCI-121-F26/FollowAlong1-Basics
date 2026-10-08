@@ -13,7 +13,9 @@ package part02;
 
 public class Warmup {
     public static void main(String[] args) {
-
+        System.out.println("My name is Jaidyn");
+        System.out.println("My Major of Study is Computer Science");
+        System.out.println("I Like Physics");
     }
 
 }

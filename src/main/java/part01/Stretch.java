@@ -10,31 +10,26 @@ package part01;
 
 public class Stretch {
     public static void main(String[] args) {
-        int x = 123;
-        long val = 369760067;
-        byte val2 = 100;
-        double val4 = 3.14;
-        boolean b1 = true;
-        char c1 = '@';
-        String s1 = "Hello Bro";
+        System.out.print("A");
+        System.out.println("B");
+        System.out.print("C\n");
+        System.out.println("\tD\\");
+        System.out.println("\"E\"");
+        // System.out.println("F");
+        System.out.print("G");
+        System.out.println();
 
-        // prints out the value that is stored in x
-        System.out.println(x);
-        // just prints out x like the character on the keyboard
-        System.out.println("x");
-        // prints out the number as well with a sentence that states what the number is then the number
-        System.out.println("My number is " + x);
-        // prints out the long value that is stored with the name val
-        System.out.println(val);
-        // prints out the byte that is stored with the name val2
-        System.out.println(val2);
-        // prints out the double value stored under the name val4
-        System.out.println(val4);
-        // prints out the boolean decision which for this instance is true
-        System.out.println(b1);
-        // prints out the @ symbol
-        System.out.println(c1);
-        // prints out the string and the input that is tagged along with it
-        System.out.println(s1);
+        System.out.println("Jaidyn May");
+        System.out.println("Computer Science");
+        System.out.println("Class of 2029");
+
+        /* MY GUESS:
+          it will be ABC
+                        DEG
+      I was correct on AB and was wrong bout C thinking new line would be printed after
+      I was correct on tab D but wrong about thinking the slash wouldn't print for being double
+      I didn't know how to have quotes print around a string
+      G I was flat out wrong about where its placement would be
+        */
     }
 }
