@@ -18,7 +18,7 @@ public class Main {
     public static void main(String[] args) {
 
         // prints out: I love pizza
-        System.out.print("\tI love pizza\\");
+        System.out.print("I love pizza");
         // prints out: It's really good on another line below the previous one
         System.out.println("It's really good");
     }
