@@ -18,8 +18,12 @@ public class Main {
     public static void main(String[] args) {
 
         // prints out: I love pizza
-        System.out.print("I love pizza");
+        System.out.print("\t\"I love pizza\"\n");
         // prints out: It's really good on another line below the previous one
-        System.out.println("It's really good");
+        System.out.println("\n It's really good \\ ");
+        // This is a comment
+        /* This is a longer form
+        of the same comment
+         */
     }
 }
