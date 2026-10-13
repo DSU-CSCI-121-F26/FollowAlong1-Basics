@@ -10,16 +10,28 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we make the rover's variables together, here, and print them.
+        String rover = "Sting";
+        int battery = 87;
+        double speed = 1.5;
+        char mode = 'C';
+        boolean lights0n = true;
 
-        System.out.println(args);
+        System.out.println("Rover "+ rover + " " + battery + "% battery." + "\nSpeed: " + speed + " m/s, mode " + mode + ", lights on: " + lights0n);
+        System.out.println("After driving, battery is " + (battery - 12)+ "%.");
 
 
         // STEP 2 — fix the bugs. Each line below has ONE mistake.
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error. Fix it. Run it. Then do the next line.
+        double fuel = 87.5;
+        char grade = 'C';
+        System.out.println(battery);
+
         /*
+
         int fuel = 87.5;
         char grade = "C";
+        Battery = fuel + grade;
         System.out.println(Battery);
         */
     }
