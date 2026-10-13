@@ -16,21 +16,37 @@ package part02;
 
 public class Variables {
     public static void main(String[] args) {
+        // makes a datatype called int wih 123 instilled as its value
         int x = 123;
+        // this line prints variable above
         System.out.println("My number is " + x);
+        //this line is o datatype long called debts long because it's a number larger than 2 billion
         long debts = 300000000000L;
+        // this line prints variable above
         System.out.println(debts);
+        // this line creates datatype of byte called be with value of 100
         byte b = 100;
+        // this line prints variable above
         System.out.println(b);
+        // this line is of a variable named y with datatype float of the value 3.14
         float y = 3.14f;
+        // this line prints variable above
         System.out.println(y);
+        // this line creates the variable named y2k with datatype double holding value of 3.14
         double y2k = 3.14;
+        // this line prints variable above
         System.out.println(y2k);
+        // this variable named z uses datatype boolean to print value true
         boolean z = true;
+        // this line prints variable above
         System.out.println(z);
+        // this is variable named symbol of the datatype char and its value of the character @
         char symbol = '@';
+        // this line prints variable above
         System.out.println(symbol);
+        // this line makes the datatype of a string called bro with the value being my name
         String Bro = "Jaidyn";
+        // this line prints variable above plus the additional string of hello added to the made datatype
         System.out.println("Hello " + Bro);
 
     }

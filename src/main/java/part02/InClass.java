@@ -28,7 +28,6 @@ public class InClass {
         System.out.println(battery);
 
         /*
-
         int fuel = 87.5;
         char grade = "C";
         Battery = fuel + grade;
