@@ -20,7 +20,7 @@ public class Variables {
         System.out.println("My number is " + x);
         long debts = 300000000000L;
         System.out.println(debts);
-        bytegit b = 100;
+        byte b = 100;
         System.out.println(b);
         float y = 3.14f;
         System.out.println(y);
