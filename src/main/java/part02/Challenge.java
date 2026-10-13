@@ -11,18 +11,18 @@ package part02;
 public class Challenge {
     public static void main(String[] args) {
 
-        String name = "Shadow Knight";
-        int level = 12;
-        long gold = 50000000;
+        String name = "HollowKnight";
+        int level = 1000;
+        long GAP = 500000000;
         double health = 87.5;
-        double speed = 4.25;
-        boolean flyStatus = false;
-        char rank = 'S';
+        double speed = 1000.96;
+        boolean flyStatus = true;
+        char rank = 'A';
 
-        System.out.println("===== Character Card ======");
+        System.out.println("===== Character Stats ======");
         System.out.println("Name: " + name);
         System.out.println("Level: " + level);
-        System.out.println("Gold: " + gold);
+        System.out.println("Gold: " + GAP);
         System.out.println("Health: " + health);
         System.out.println("Speed: " + speed);
         System.out.println("Flies: " + flyStatus);
