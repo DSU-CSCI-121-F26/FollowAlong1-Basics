@@ -11,5 +11,11 @@ package part05;
 // You will need to type the main method yourself. That is the point.
 
 public class Warmup {
+    public static void main(String[] args) {
+    int peeps = 4;
+    int billPrice = 50;
+    double bill = (double) (billPrice / peeps);
+    System.out.println("Each person pays: $" + bill);
+    }
 
 }

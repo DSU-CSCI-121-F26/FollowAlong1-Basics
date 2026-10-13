@@ -13,7 +13,31 @@ package part03;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+// defines a publicly accessed class called swap
 public class Swap {
+    // the start of the program called main
+    public static void main(String[] args) {
+        // initialization of string variables called x and y for water and kool-aid
+        String x = "water";
+        String y = "Kool-Aid";
+        // declaration for a string variable temp
+        String temp;
+
+        // assignees temp to x which is water
+        temp = x;
+        // y is assigned to x and y holds Kool-Aid
+        x = y;
+        // y is assigned to the temp which is water
+        y = temp;
+
+        // prints x: water
+        System.out.println("x: " + x);
+        // prints y: Kool-Aid
+        System.out.println("y: " + y);
+
+
+
+
+    }
 
 }

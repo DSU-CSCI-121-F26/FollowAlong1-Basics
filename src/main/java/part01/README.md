@@ -500,9 +500,9 @@ cannot see them.
 Fill this in before you push. Type your answers after the colons.
 
 ```
-Started:
-Finished:
-The line that took me the longest:
+Started: Monday, October 5
+Finished: Monday, October 5
+The line that took me the longest: the challenge
 ```
 
 ---

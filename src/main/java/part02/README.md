@@ -554,9 +554,9 @@ them.
 Fill this in before you push. Type your answers after the colons.
 
 ```
-Started:
-Finished:
-The line that took me the longest:
+Started: October 5, Monday
+Finished: October 5, Monday
+The line that took me the longest: The challenge lining up all the tabs 
 ```
 
 ---
