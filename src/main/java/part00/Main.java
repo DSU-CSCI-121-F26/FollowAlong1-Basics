@@ -7,11 +7,15 @@ package part00;
 //
 // Your one job in this file: change YOUR NAME below to your actual name,
 // run it, and check the output matches the README.
-
+//A Main class that starts the program
 public class Main {
+    //Entry point of the program
     public static void main(String[] args) {
+        //prints ths section header
         System.out.println("=== Part 00 ===");
-        System.out.println("Hello from YOUR NAME");
+        //prints the Hello from Lu-kee
+        System.out.println("Hello from Lu-kee");
+        //prints if you can read this your setup, your set up works
         System.out.println("If you can read this, your setup works.");
     }
 }

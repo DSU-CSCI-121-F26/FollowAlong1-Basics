@@ -12,5 +12,15 @@ package part03;
 // You will need to type the main method yourself. That is the point.
 
 public class Warmup {
+    public static void main(String[] args) {
+        String name = "Lu-kee Tucker";
+        int age = 20;
+        double gpa = 3.4;
+        boolean commuter = false;
+        System.out.println("Name:"+name);
+        System.out.println("Age:"+age);
+        System.out.println("GPA:"+gpa);
+        System.out.println("Commuter:"+commuter);
+    }
 
 }

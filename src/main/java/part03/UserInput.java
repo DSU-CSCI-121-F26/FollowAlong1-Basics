@@ -15,6 +15,33 @@ package part03;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. That includes the import line.
 
+import java.util.Scanner;
+//a public class of UserInput
 public class UserInput {
+    //the psvm that runs the code
+    public static void main(String[] args) {
+        //Scanner object with the variable scanner
+        Scanner scanner = new Scanner(System.in);
+        //prints what is your name
+        System.out.println("What is your name");
+        //user inputs there name
+        String name = scanner.nextLine();
+        //prints Hello with the variable name from scanner
+        System.out.println("Hello "+name);
+        //prints how Old are you
+        System.out.println("How old are you");
+        //prints int age variable that scanner.nextInt();
+        int age = scanner.nextInt();
+        //clears the \n
+        scanner.nextLine();
+        //prints you are plus the int vairable age years old
+        System.out.println("You are "+age+" years old");
+        //prints what is your favorite food?
+        System.out.println("What is your favorite food?");
+        //variable food on the nextLine()
+        String food = scanner.nextLine();
+        //prints you like + the variable food
+        System.out.println("You like "+food);
+    }
 
 }

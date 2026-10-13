@@ -11,6 +11,13 @@ package part04;
 //
 // You will need the import line, the Scanner, and the main method. Type them all.
 
-public class Warmup {
+import java.util.Scanner;
 
+public class Warmup {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("What is your name? ");
+        String name = sc.nextLine();
+        System.out.println("Hi, "+name);
+    }
 }

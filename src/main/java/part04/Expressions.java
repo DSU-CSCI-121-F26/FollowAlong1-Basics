@@ -13,7 +13,18 @@ package part04;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+//a Class template called Expressions
 public class Expressions {
+    //the psvm that runs the code
+    public static void main(String[] args) {
+        //A double variable called frineds that is equal to 10
+        double friends = 10;
+        //cast the friends / 3 into a double
+        friends = (double) friends / 3;
+        //prints friends which is 10/3
+        System.out.println(friends);
+
+
+    }
 
 }

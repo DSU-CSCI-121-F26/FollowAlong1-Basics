@@ -15,6 +15,25 @@ package part05;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does.
 
+import java.util.Random;
+// declare a public class RandomNumbers
 public class RandomNumbers {
+    //a program that runs the main method
+    public static void main(String[] args) {
+        //creates a Random so we can call nextInt,nextDouble,and nextBooleean
+        Random random = new Random();
+        //Generates a random integer
+        int x1 = random.nextInt(6) + 1;
+        //prints the random integer
+        System.out.println(x1);
+        //Generates a random double between 0.0 and 1.0
+        double y = random.nextDouble();
+        //prints teh random double
+        System.out.println(y);
+        //generate a random boolean: either true or false
+        boolean z = random.nextBoolean();
+        //prints the random boolean
+        System.out.println(z);
 
+    }
 }

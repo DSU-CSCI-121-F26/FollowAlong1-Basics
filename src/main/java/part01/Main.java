@@ -12,7 +12,23 @@ package part01;
 //
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
-
+//Public class called main that holds everything
 public class Main {
+    //starts or runs the program
+    public static void main(String[]args){
+        //prints I love pizza into the terminal
+        System.out.println("\t\"I love pizza\"\n");
+        //prints Its really good into the terminal
+        System.out.println("Its really good \\");
+        System.out.println("Test");
+        //This is a comment
+        //Test
+        /*
+        This
+        is
+        a
+        comment
+         */
 
+    }
 }

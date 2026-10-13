@@ -10,7 +10,16 @@ package part01;
 // with your name in it.
 //
 // You will need to type the main method yourself. That is the point.
-
+//a public class called warmup
 public class Warmup {
+    //a psvm used to run the program
+    public static void main(String[] args) {
+        //prints Part00 in the terminal
+        System.out.println("=== Part 00 ===");
+        //prints hello from Lu-kee Tucker in ther terminal
+        System.out.println("Hello from Lu-kee Tucker");
+        //prints if you can read this your setuo works in the terminal
+        System.out.println("If you can read this, your setup works.");
+    }
 
 }

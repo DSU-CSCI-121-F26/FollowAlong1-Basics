@@ -9,5 +9,12 @@ package part01;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
+        System.out.println("\t/\\\\_/\\");
+        System.out.println("\t(\\* *\\)");
+        System.out.println("\t(  ^  )");
+        System.out.println("\t(\t) )");
+        System.out.println("\t \t\t\\");
+    }
 
 }
