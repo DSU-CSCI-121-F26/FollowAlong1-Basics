@@ -10,28 +10,20 @@ package part01;
 
 public class Stretch {
     public static void main(String[] args) {
-        System.out.print("A");
-        System.out.println("B");
-        System.out.print("C\n");
-        System.out.println("\tD\\");
-        System.out.println("\"E\"");
-        // System.out.println("F");
-        System.out.print("G");
-        System.out.println();
 
         System.out.println("Jaidyn May");
         System.out.println("Computer Science");
         System.out.println("Class of 2029");
 
-        System.out.print("Jaidyn May\n");
+        System.out.print("\nJaidyn May\n");
         System.out.print("Computer Science\n");
         System.out.print("Class of 2029\n");
 
-        System.out.println("Day     Class           Time\n" +
-                "Mon     CSCI-121        2:00 PM\n" +
-                "Tue     CSCI-121        3:00 PM\n" +
+        System.out.println("\nDay\t\tClass\t\tTime\n" +
+                "Mon\t\tCSCI-121\t2:00 PM\n" +
+                "Tue\t\tCSCI-121\t3:00 PM\n" +
                 "My teacher said \"type it yourself.\"\n" +
-                "My code lives in C:\\Users\\jordan\\csci121");
+                "My code lives in C:\\Users\\Jaidyn\\csci121");
 
         /* MY GUESS:
           it will be ABC
