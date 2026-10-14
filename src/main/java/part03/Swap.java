@@ -1,3 +1,4 @@
+//
 package part03;
 
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=2140s
@@ -16,14 +17,19 @@ package part03;
 
 public class Swap {
     public static void main(String[] args) {
+        // we have a datatype string named x that holds the string water
         String x ="water";
+        // we have a datatype string named y that holds the string Kool-Aid
         String y ="Kool-Aid";
+        //string name and function temp
         String temp;
-
+        //saves water in temp so water isn't lost when x is changed
         temp = x;
+        //Overwrites x with the value of y
         x = y;
+        //Assign the original value of x from temp to y
         y = temp;
-
+        //outputs values of x and y
         System.out.println("x: " + x);
         System.out.println("y: " + y);
     }

@@ -1,4 +1,5 @@
 package part03;
+//
 import java.util.Scanner;
 // Type the Scanner import line here, on the empty line below.
 
@@ -13,22 +14,26 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we ask for two team names together, here, and swap them.
-         Scanner scanner = new Scanner(System.in);
 
+        // Creates a scanner object to read user input from the console
+         Scanner scanner = new Scanner(System.in);
+        // Get team names from user input
         System.out.println("Home team: ");
         String home = scanner.nextLine();
 
         System.out.println("Away team: ");
         String away = scanner.nextLine();
-
+        // Outputs initial game state
         System.out.println("Home team: " + home);
         System.out.println("Away team: " + away);
         System.out.println("Before: " + home + " vs " + away);
 
-       // String temp = home;
+        /*Swap home and away teams (currently missing temporary variable logic)
+        String temp = home;
         home = away;
-        away = home;
+        away = home; */
 
+        // Output game state after swap
         System.out.println("After halftime: " + home + " vs " + away);
 
         // Swap the two vari
