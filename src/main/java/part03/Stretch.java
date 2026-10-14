@@ -34,11 +34,23 @@ public class Stretch {
         String second = "green";
         String third = "blue";
 
-
+        System.out.println(first + " "+ second + " "+ third);
         String temp = first;
         first = second;
         second = third;
-        System.out.println(first + second + third);
+        third = temp;
+        System.out.println(first + " "+ second + " "+ third);
+
+        System.out.println("How old are you?");
+        int age = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println(age);
+        System.out.println("What city do you live in?");
+        String city = scanner.nextLine();
+        System.out.println(city);
+        System.out.println(age + " years old, living in "+ city);
+
+
     }
 
 }
