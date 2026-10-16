@@ -28,7 +28,7 @@ public class UserInput {
         System.out.println("How old are you?");
         int age = scanner.nextInt();
         scanner.nextLine();
-        //what is the fav food same as the 2 above as well just has to be string variables
+        //what is the fav food same as the 2 above as well just has to be string variables.
         System.out.println("What is your favorite food?");
         String food = scanner.nextLine();
         // printts out all the user inputed values into the format shown below.

@@ -27,7 +27,7 @@ public class Swap {
         temp = x;
         // Copy what is in y (Kool-Aid) into x. The old value of x is gone but we already saved it in temp.
         x = y;
-        // Copy what is in temp (water) into y. This finishes the swap because y now holds the water.
+        // Copy what is in temp (water) into y. This finishes the swap because y now holds the water..
         y = temp;
 
         // Print x with a label in front so the output is easy to read. It should show Kool-Aid.
