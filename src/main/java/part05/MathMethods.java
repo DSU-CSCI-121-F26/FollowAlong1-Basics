@@ -26,7 +26,7 @@ public class MathMethods {
         // finding the minimum between both values and outputting the smallest value
         z = Math.min(x, y);
         System.out.println(z);
-        // outputting the absolute value so with that its basically dropping the negative sign from the value and outputting the same number just positive
+        // outputting the absolute value so with that it's basically dropping the negative sign from the value and outputting the same number just positive
         z = Math.abs(y);
         System.out.println(z);
         // squaring the value and outputting the answer from that
@@ -42,7 +42,7 @@ public class MathMethods {
         // ceil rounds the value x to the nearest  integer and outputs it as double
         z = Math.ceil(x);
         System.out.println(z);
-        // round the number down to its like lowest possible value basically dropping its decimal and outtputing the number
+        // round the number down to its like lowest possible value basically dropping its decimal and outputting the number
         z = Math.floor(x);
         System.out.println(z);
         

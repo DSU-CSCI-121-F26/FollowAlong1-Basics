@@ -19,7 +19,7 @@ import java.util.Random;
 public class RandomNumbers {
     public static void main(String[] args) {
         Random rand = new Random();
-        // generating a random integer that is bound between 6 and 1 then because the pluss one basically moves where the starting value is frrom 0 to 1
+        // generating a random integer that is bound between 6 and 1 then because the plus one basically moves where the starting value is from 0 to 1
         int x = rand.nextInt(6) + 1;
         System.out.println(x);
         // generates a random double number with no bound

@@ -22,7 +22,7 @@ public class Hypotenuse {
         double x;
         double y;
         double z;
-        // asking for the side values with user input
+        // asking for the side values with user input.
         System.out.println("Enter side x: ");
         x = scnr.nextDouble();
         // asking for the side values with user input
