@@ -24,7 +24,7 @@ public class Variables {
         char c1 = '@';
         String s1 = "Hello Bro";
 
-        // prints out the value that is stored in x
+        // prints out the value that is stored in x.
         System.out.println(x);
         // just prints out x like the character on the keyboard
         System.out.println("x");
