@@ -17,11 +17,17 @@ import javax.swing.JOptionPane;
 
 public class GUI {
     public static void main(String [] args){
+        // Displays the input dialog box asking for a name and stores the result in a String variable named name
         String name = JOptionPane.showInputDialog("Enter your name");
+        // Displays the input dialog box asking for a name and stores the result in a String variable named name
         JOptionPane.showMessageDialog(null, "Hello " + name);
+        // Prompts the user for their age as a string, parses it into an integer, and stores it in the age variable
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        // Displays a message dialog box displaying the user's age
         JOptionPane.showMessageDialog(null, "You are " + age + " years old");
+        // Prompts the user for their height as a string, parses it into a double, and stores it in the height variable
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        // Displays a message dialog box displaying the user's height in centimeters
         JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
 
     }
