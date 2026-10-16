@@ -16,9 +16,9 @@ package part01;
 public class Main {
     public static void main(String[] args) {
 
-        // prints out: I love pizza
+        // prints out with a tab I love pizza but does not create a new line
         System.out.print("\tI love pizza\\");
-        // prints out: It's really good on another line below the previous one
+        // prints out: It's really good on the same line all together and creates a new line below
         System.out.println("It's really good");
 
     }
