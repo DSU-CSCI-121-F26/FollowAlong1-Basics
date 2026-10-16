@@ -18,13 +18,13 @@ import javax.swing.JOptionPane;
 
 public class GUI {
     public static void main(String[] args) {
-        // asking for the users name in a popup wizard and hen outputing the name with a greeting added with the name
+        // asking for the users name in a popup wizard and hen outputting the name with a greeting added with the name
         String name = JOptionPane.showInputDialog("Enter your name");
         JOptionPane.showMessageDialog(null, "Hello " + name);
-        // asking for the users name on the same popup user in the sequence after and then outputing only if the user enters an integer value whatever they input
+        // asking for the users name on the same popup user in the sequence after and then outputting only if the user enters an integer value whatever they input
         int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
         JOptionPane.showMessageDialog(null, "You are " + age + " years old");
-        // same as above on a popup window asking for user height and the users height can be dang near any numerical value thats real, integer, rational all of em
+        // same as above on a popup window asking for user height and the users height can be dang near any numerical value that's real, integer, rational all of em
         double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
         JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
     }

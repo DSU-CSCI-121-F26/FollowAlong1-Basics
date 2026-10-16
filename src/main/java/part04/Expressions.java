@@ -20,7 +20,7 @@ public class Expressions {
         int friends = 10;
         friends = friends + 1;
         System.out.println(friends);
-        // subtracting 1 from friends and printing out 10
+        // subtracting 1 from friends and printing out 10.
         friends = friends - 1;
         System.out.println(friends);
         // multiplying friends times 2 and printing out 20
