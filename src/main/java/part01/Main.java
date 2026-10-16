@@ -14,5 +14,12 @@ package part01;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Main {
+    public static void main(String[] args) {
 
+        // prints out with a tab I love pizza but does not create a new line
+        System.out.print("\tI love pizza\\");
+        // prints out: It's really good on the same line all together and creates a new line below
+        System.out.println("It's really good");
+
+    }
 }

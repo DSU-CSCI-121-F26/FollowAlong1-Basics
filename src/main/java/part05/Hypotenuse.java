@@ -1,4 +1,5 @@
 package part05;
+import java.util.Scanner;
 
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3689s
 //        the hypotenuse project starts at about 61:29 — stop at about 63:52
@@ -15,5 +16,23 @@ package part05;
 //    saying in YOUR OWN WORDS what that line does.
 
 public class Hypotenuse {
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        // declaring all the values
+        double x;
+        double y;
+        double z;
+        // asking for the side values with user input.
+        System.out.println("Enter side x: ");
+        x = scnr.nextDouble();
+        // asking for the side values with user input
+        System.out.println("Enter side y: ");
+        y = scnr.nextDouble();
+        // calculating the hypotenuse using the formula based off of the user inputted value and then printing it out in the format
+        z = Math.sqrt((x * x) + (y * y));
+        System.out.println("The hypotenuse is: " + z);
+        scnr.close();
+
+    }
 
 }

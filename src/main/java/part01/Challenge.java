@@ -9,5 +9,20 @@ package part01;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
+
+        System.out.println(" ***     ***  ");
+        System.out.println(" ***** ***** ");
+        System.out.println("*************");
+        System.out.println("*************");
+        System.out.println(" *********** ");
+        System.out.println("   *******   ");
+        System.out.println("    *****    ");
+        System.out.println("     ***     ");
+        System.out.println("      *      ");
+        System.out.print("\"Love Yours\"");
+        System.out.println(" \\q\\");
+
+    }
 
 }

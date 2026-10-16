@@ -1,4 +1,5 @@
 package part05;
+import java.util.Random;
 
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3850s
 //        random numbers start at about 64:10 — stop at about 68:28
@@ -16,5 +17,21 @@ package part05;
 //    saying in YOUR OWN WORDS what that line does.
 
 public class RandomNumbers {
+    public static void main(String[] args) {
+        Random rand = new Random();
+        // generating a random integer that is bound between 6 and 1 then because the plus one basically moves where the starting value is from 0 to 1
+        int x = rand.nextInt(6) + 1;
+        System.out.println(x);
+        // generates a random double number with no bound
+        double y = rand.nextDouble();
+        System.out.println(y);
+        // generates a random output of a true or false
+        boolean z = rand.nextBoolean();
+        System.out.println(z);
+
+
+
+
+    }
 
 }
