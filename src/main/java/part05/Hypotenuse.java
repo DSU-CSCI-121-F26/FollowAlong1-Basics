@@ -1,5 +1,6 @@
 package part05;
-
+import java.util.Scanner;
+import java.util.Random;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3689s
 //        the hypotenuse project starts at about 61:29 — stop at about 63:52
 // Guide: GUIDE.md in this folder, steps 7–10
@@ -15,5 +16,20 @@ package part05;
 //    saying in YOUR OWN WORDS what that line does.
 
 public class Hypotenuse {
+    public static void main(String[] args) {
+        double x;
+        double y;
+        double z;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter side x: ");
+        x = scanner.nextDouble();
+        System.out.println("Enter side y: ");
+        y = scanner.nextDouble();
+        z = Math.sqrt((x * x) + (y * y));
+        System.out.println("The hypotenuse is: " + z);
+        scanner.close();
+
+
+    }
 
 }
