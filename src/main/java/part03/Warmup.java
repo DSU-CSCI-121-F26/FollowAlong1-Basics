@@ -11,6 +11,21 @@ package part03;
 //
 // You will need to type the main method yourself. That is the point.
 
+import org.w3c.dom.ls.LSOutput;
+// the public class for how all warmups will be created
 public class Warmup {
+    // the start of the program
+    public static void main(String[] args) {
+        // variables about me
+        String name = "Juwan Johnson";
+        int age = 20;
+        double GPA = 3.31;
+        Boolean Commuter = false;
 
+        // printed version of my custom variables
+        System.out.println("Name: " + name);
+        System.out.println("Age : " + age);
+        System.out.println("GPA : " + GPA);
+        System.out.println("Commuter : " + Commuter);
+    }
 }

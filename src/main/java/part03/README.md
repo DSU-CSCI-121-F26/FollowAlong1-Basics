@@ -561,9 +561,9 @@ the `import` line and the `Scanner`.
 Fill this in before you push. Type your answers after the colons.
 
 ```
-Started:
-Finished:
-The line that took me the longest:
+Started: October 5th, Monday
+Finished: ctober 6th, tuesday
+The line that took me the longest: the challenge all the sout lines were alot 
 ```
 
 ---

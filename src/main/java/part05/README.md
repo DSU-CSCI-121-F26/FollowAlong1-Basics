@@ -504,9 +504,9 @@ shows you how to set it up (about 5 minutes). You don't have to wait for class.
 Fill this in before you push. Type your answers after the colons.
 
 ```
-Started:
-Finished:
-The line that took me the longest:
+Started: October 7th, Wednesday
+Finished: October 8th, Thursday
+The line that took me the longest: the area of a circle line i tried parenthasis but it didn't work at first
 ```
 
 ---

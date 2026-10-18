@@ -13,4 +13,10 @@ package part01;
 
 public class Warmup {
 
+    public static void main(String[] args){
+        System.out.println("=== Part 00 ===");
+        System.out.println("Hello from Juwan J");
+        System.out.println("If you van read this, your setup works.");
+
+    }
 }
