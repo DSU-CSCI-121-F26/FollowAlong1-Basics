@@ -1,5 +1,5 @@
 package part04;
-
+import java.util.Scanner;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=2888s
 //        (this part's lesson starts here — GUIDE.md has it written out)
 
@@ -12,5 +12,16 @@ package part04;
 // You will need the import line, the Scanner, and the main method. Type them all.
 
 public class Warmup {
+    public static void main(String[] args){
+        Scanner ghost = new Scanner(System.in);
+
+        System.out.println("Hi, whats your name?");
+        String Tame = ghost.nextLine();
+        System.out.println("Hi, " + Tame + " great to meet you!");
+
+    }
+
+
+
 
 }

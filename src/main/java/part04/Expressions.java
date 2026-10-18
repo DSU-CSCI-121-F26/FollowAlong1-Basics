@@ -15,5 +15,13 @@ package part04;
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
 public class Expressions {
+    public static void main(String[] args){
+        // line datatype double named friends of value 10
+        double friends = 10;
+        //divides variable named friends by 3 after casting it a double and updates its value
+        friends = (double)friends / 3;
+        //prints updated value of our variable friends to the console
+        System.out.println(friends);
+    }
 
 }

@@ -8,6 +8,20 @@ package part01;
 //
 // There is no main method here yet. Typing it is part of the challenge.
 
+        /*
+        Jaidyn I'm making a gasping face
+         */
 public class Challenge {
+    public static void main(String[] args) {
+        System.out.println("+-----------+");
+        System.out.println("|\t0    0  |");
+        System.out.println("|           |");
+        System.out.print("|    []     |\n");
+        System.out.println("\"-----------\"");
+        System.out.println("\\ oooooo / ");
+
+
+
+    }
 
 }

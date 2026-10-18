@@ -10,16 +10,20 @@ public class InClass {
     public static void main(String[] args) {
 
         // STEP 1 — we type the rover status report together, here.
-
-
+        System.out.println("=== ROVER STATUS ===");
+        System.out.println("Name:\t\t\"Sting\"");
+        System.out.println("Battery:\t87%");
+        System.out.print("Mode:\t\tCRUISE\n");
+        System.out.println("Log file:\tC:\\rover\\log.txt");
+        System.out.println("Status: \tAll systems \"go\"");
 
         // STEP 2 — fix the bugs. Each line below has ONE mistake.
         // Move ONE line at a time above the /* line, so Java sees it.
         // Read the red error. Fix it. Run it. Then do the next line.
-        /*
-        System.out.println("Battery: 87%")
-        System.out.println("Name: "Sting"");
-        System.out.println("Log file: C:\rover\log.txt");
-        */
+
+        System.out.println("\n\n\nBattery: 87%");
+        System.out.println("Name: " + "String");
+        System.out.println("Log file: C:\\rover\\log.txt");
+
     }
 }

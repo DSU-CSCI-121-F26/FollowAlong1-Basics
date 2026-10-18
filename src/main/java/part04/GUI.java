@@ -1,5 +1,5 @@
 package part04;
-
+import javax.swing.JOptionPane;
 // Video: https://www.youtube.com/watch?v=xk4_1vDrzzo&t=3191s
 //        starts at about 53:11 — stop at about 58:10, at "in conclusion ladies and gentlemen"
 // Guide: GUIDE.md in this folder, steps 7–11
@@ -16,5 +16,20 @@ package part04;
 //    saying in YOUR OWN WORDS what that line does. That includes the import line.
 
 public class GUI {
+    public static void main(String [] args){
+        // Displays the input dialog box asking for a name and stores the result in a String variable named name
+        String name = JOptionPane.showInputDialog("Enter your name");
+        // Displays the input dialog box asking for a name and stores the result in a String variable named name
+        JOptionPane.showMessageDialog(null, "Hello " + name);
+        // Prompts the user for their age as a string, parses it into an integer, and stores it in the age variable
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        // Displays a message dialog box displaying the user's age
+        JOptionPane.showMessageDialog(null, "You are " + age + " years old");
+        // Prompts the user for their height as a string, parses it into a double, and stores it in the height variable
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        // Displays a message dialog box displaying the user's height in centimeters
+        JOptionPane.showMessageDialog(null, "You are " + height + " cm tall");
+
+    }
 
 }
